@@ -7,7 +7,7 @@ btn.addEventListener('click', function(){
     let hex = '#';
         for(let i = 0; i < 6; i++){
             let index = Math.floor(Math.random() * signs.length);
-            hex = hex + signs[index];
+            hex += signs[index];
         }
     body.style.backgroundColor = hex;
     body.style.transition = '1s'
